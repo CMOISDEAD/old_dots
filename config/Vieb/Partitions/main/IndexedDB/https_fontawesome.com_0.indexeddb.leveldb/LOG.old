@@ -1,0 +1,6 @@
+2022/06/13-17:12:14.586 1485 Creating DB /home/camilo/.config/Vieb/Partitions/main/IndexedDB/https_fontawesome.com_0.indexeddb.leveldb since it was missing.
+2022/06/13-17:12:14.709 1485 Reusing MANIFEST /home/camilo/.config/Vieb/Partitions/main/IndexedDB/https_fontawesome.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/06/13-17:24:43.980 177c Level-0 table #5: started
+2022/06/13-17:24:44.022 177c Level-0 table #5: 3579 bytes OK
+2022/06/13-17:24:44.059 177c Delete type=0 #3
+2022/06/13-17:24:44.060 177c Manual compaction at level-0 from (begin) .. (end); will stop at (end)

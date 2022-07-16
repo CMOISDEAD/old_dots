@@ -1,0 +1,15 @@
+2022/07/10-16:53:03.317 36c4 Reusing MANIFEST /home/camilo/.config/Vieb/Partitions/main/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/07/10-16:53:03.318 36c4 Recovering log #31
+2022/07/10-16:53:03.423 36c4 Reusing old log /home/camilo/.config/Vieb/Partitions/main/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000031.log 
+2022/07/10-16:57:33.562 34e8 Level-0 table #36: started
+2022/07/10-16:57:33.698 34e8 Level-0 table #36: 656148 bytes OK
+2022/07/10-16:57:33.766 34e8 Delete type=0 #31
+2022/07/10-16:57:33.835 34e8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/07/10-16:57:33.864 34e8 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x08\x01\x1f\x03\x00\xe0\xb0\x0a\xf4\x1exB\x00\x01\x17\x00y\x00t\x00-\x00r\x00e\x00d\x00i\x00r\x00e\x00c\x00t\x00-\x00p\x00r\x00e\x00f\x00e\x00t\x00c\x00h\x00-\x00i\x00d' @ 36851 : 1
+2022/07/10-16:57:33.864 34e8 Compacting 1@1 + 1@2 files
+2022/07/10-16:57:33.987 34e8 Generated table #37@1: 304 keys, 25106 bytes
+2022/07/10-16:57:33.987 34e8 Compacted 1@1 + 1@2 files => 25106 bytes
+2022/07/10-16:57:34.106 34e8 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/07/10-16:57:34.107 34e8 Delete type=2 #36
+2022/07/10-16:57:34.107 34e8 Delete type=2 #33
+2022/07/10-16:57:34.113 34e8 Manual compaction at level-1 from '\x00\x08\x01\x1f\x03\x00\xe0\xb0\x0a\xf4\x1exB\x00\x01\x17\x00y\x00t\x00-\x00r\x00e\x00d\x00i\x00r\x00e\x00c\x00t\x00-\x00p\x00r\x00e\x00f\x00e\x00t\x00c\x00h\x00-\x00i\x00d' @ 36851 : 1 .. (end); will stop at (end)

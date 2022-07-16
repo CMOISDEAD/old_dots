@@ -1,0 +1,26 @@
+2022/07/10-12:53:54.980 5625 Reusing MANIFEST /home/camilo/.config/Vieb/Partitions/main/IndexedDB/https_app.netlify.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/07/10-12:53:54.980 5625 Recovering log #4
+2022/07/10-12:53:54.981 5625 Reusing old log /home/camilo/.config/Vieb/Partitions/main/IndexedDB/https_app.netlify.com_0.indexeddb.leveldb/000004.log 
+2022/07/10-12:53:55.240 5625 Level-0 table #8: started
+2022/07/10-12:53:55.288 5625 Level-0 table #8: 1460 bytes OK
+2022/07/10-12:53:55.331 5625 Delete type=0 #4
+2022/07/10-12:53:55.378 5625 Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/07/10-12:54:16.586 5625 Level-0 table #10: started
+2022/07/10-12:54:16.660 5625 Level-0 table #10: 842 bytes OK
+2022/07/10-12:54:16.713 5625 Delete type=0 #7
+2022/07/10-12:54:16.713 5625 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x010\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00n\x00e\x00t\x00l\x00i\x00f\x00y\x00-\x00b\x00u\x00i\x00l\x00d\x00s\x009\x00.\x00f\x00i\x00r\x00e\x00b\x00a\x00s\x00e\x00i\x00o\x00.\x00c\x00o\x00m\x00!\x00u\x00n\x00d\x00e\x00f\x00i\x00n\x00e\x00d' @ 97 : 1
+2022/07/10-12:54:16.713 5625 Compacting 1@0 + 1@1 files
+2022/07/10-12:54:16.852 5625 Generated table #11@0: 41 keys, 1155 bytes
+2022/07/10-12:54:16.852 5625 Compacted 1@0 + 1@1 files => 1155 bytes
+2022/07/10-12:54:16.938 5625 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/07/10-12:54:16.939 5625 Delete type=2 #10
+2022/07/10-12:54:16.939 5625 Delete type=2 #8
+2022/07/10-12:54:16.941 5625 Manual compaction at level-0 from '\x00\x02\x01\x02\x010\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00n\x00e\x00t\x00l\x00i\x00f\x00y\x00-\x00b\x00u\x00i\x00l\x00d\x00s\x009\x00.\x00f\x00i\x00r\x00e\x00b\x00a\x00s\x00e\x00i\x00o\x00.\x00c\x00o\x00m\x00!\x00u\x00n\x00d\x00e\x00f\x00i\x00n\x00e\x00d' @ 97 : 1 .. (end); will stop at (end)
+2022/07/10-12:54:16.941 5625 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x010\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00n\x00e\x00t\x00l\x00i\x00f\x00y\x00-\x00b\x00u\x00i\x00l\x00d\x00s\x009\x00.\x00f\x00i\x00r\x00e\x00b\x00a\x00s\x00e\x00i\x00o\x00.\x00c\x00o\x00m\x00!\x00u\x00n\x00d\x00e\x00f\x00i\x00n\x00e\x00d' @ 97 : 1
+2022/07/10-12:54:16.941 5625 Compacting 1@1 + 1@2 files
+2022/07/10-12:54:17.043 5625 Generated table #12@1: 21 keys, 881 bytes
+2022/07/10-12:54:17.043 5625 Compacted 1@1 + 1@2 files => 881 bytes
+2022/07/10-12:54:17.121 5625 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/07/10-12:54:17.121 5625 Delete type=2 #11
+2022/07/10-12:54:17.121 5625 Delete type=2 #5
+2022/07/10-12:54:17.122 5625 Manual compaction at level-1 from '\x00\x02\x01\x02\x010\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00n\x00e\x00t\x00l\x00i\x00f\x00y\x00-\x00b\x00u\x00i\x00l\x00d\x00s\x009\x00.\x00f\x00i\x00r\x00e\x00b\x00a\x00s\x00e\x00i\x00o\x00.\x00c\x00o\x00m\x00!\x00u\x00n\x00d\x00e\x00f\x00i\x00n\x00e\x00d' @ 97 : 1 .. (end); will stop at (end)

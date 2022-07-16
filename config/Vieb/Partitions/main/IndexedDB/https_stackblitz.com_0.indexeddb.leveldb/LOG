@@ -1,0 +1,15 @@
+2022/07/10-11:44:11.824 3e91 Reusing MANIFEST /home/camilo/.config/Vieb/Partitions/main/IndexedDB/https_stackblitz.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/07/10-11:44:11.824 3e91 Recovering log #4
+2022/07/10-11:44:11.824 3e91 Reusing old log /home/camilo/.config/Vieb/Partitions/main/IndexedDB/https_stackblitz.com_0.indexeddb.leveldb/000004.log 
+2022/07/10-11:44:17.186 4031 Level-0 table #8: started
+2022/07/10-11:44:17.261 4031 Level-0 table #8: 190 bytes OK
+2022/07/10-11:44:17.314 4031 Delete type=0 #4
+2022/07/10-11:44:17.315 4031 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/07/10-11:44:17.315 4031 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x06' @ 46 : 1
+2022/07/10-11:44:17.315 4031 Compacting 1@1 + 1@2 files
+2022/07/10-11:44:17.376 4031 Generated table #9@1: 19 keys, 523 bytes
+2022/07/10-11:44:17.377 4031 Compacted 1@1 + 1@2 files => 523 bytes
+2022/07/10-11:44:17.439 4031 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/07/10-11:44:17.439 4031 Delete type=2 #5
+2022/07/10-11:44:17.439 4031 Delete type=2 #8
+2022/07/10-11:44:17.440 4031 Manual compaction at level-1 from '\x00\x00\x00\x00\x06' @ 46 : 1 .. (end); will stop at (end)

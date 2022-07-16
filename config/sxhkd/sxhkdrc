@@ -1,0 +1,220 @@
+## Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
+# Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
+
+##---------- Keybindings for bspwm ----------##
+
+# Terminal (alacritty)
+super + Return
+  kitty #alacritty
+
+# Terminal (floating)
+super + shift + Return
+  bspterm -f
+
+##---------- Rofi Launcher & Menus ----------##
+
+# Rofi App Launcher
+super + d
+	~/.config/bspwm/rofi/bin/launcher
+	# ~/.config/bspwm/rofi/bin/command_launcher
+
+super + shift + d
+  sh ~/.config/rofi/clipboards/launcher.sh
+
+# Rofi Network Menu
+super + n
+	nmd
+
+# Rofi Menus/Applets
+super + {c,m,x,r,s,i}
+	sh ~/.config/bspwm/rofi/bin/{windows,mpd,powermenu,asroot,screenshot,network}
+
+##---------- Applications ----------##
+
+# Launch Apps
+super + shift + {f,w,e}
+	{pcmanfm,brave,nvim}
+
+# Terminal Apps
+ctrl + alt + {v,r,h,b}
+	bspterm -e {nvim,ranger,htop,btop}
+
+# Color Picker
+super + p
+  gpick -s
+
+##---------- System Keys ----------##
+
+# Take a screenshot
+Print
+  scrot
+	#takeshot --now
+	
+# Take screenshot in 5 second
+alt + Print	
+  scrot
+	#takeshot --in5
+
+# Take screenshot in 10 second
+shift + Print	
+  scrot
+  #takeshot --in10
+
+# Take screenshot of active window
+ctrl + Print
+	takeshot --win
+
+# Take screenshot of area
+ctrl + alt + Print
+	takeshot --area
+
+# Brighness control
+XF86MonBrightness{Up,Down}
+	brightness{ --inc, --dec}
+
+super + XF86Audio{RaiseVolume,LowerVolume}
+	light {-A,-U} 10
+
+super + {Up, Down}
+	light {-A,-U} 10
+
+# Volume control
+XF86Audio{RaiseVolume,LowerVolume}
+  amixer set Master {5%+, 5%-}
+
+XF86AudioMute
+	amixer set Master toggle
+	
+# Music control
+XF86Audio{Next,Prev,Play,Stop}
+	mpc {next,prev,toggle,stop}
+
+##---------- Bspwm ----------##
+
+# Close App
+super + {_,shift + }w
+	bspc node -{c,k}
+
+# Reload Keybindings
+super + Escape
+	pkill -USR1 -x sxhkd
+
+# kill window
+ctrl + alt + Escape
+    xkill
+
+# Quit/Restart bspwm
+ctrl + alt + shift + {q,r}
+	bspc {quit,wm -r}
+	
+# Split horizontal, vertical or cancel
+# super + {Right,Down,q}
+# 	bspc node -p {east,south,cancel}
+
+# Preselect the ratio
+super + ctrl + {1-9}
+	bspc node -o 0.{1-9}
+
+# Fullscreen or Monocle
+super + f
+#	bspc desktop -l next
+    bspc node -t "~"fullscreen
+
+# Toggle beetwen floating & tiled
+super + space
+    bspc node -t "~"{floating,tiled}
+
+# Pseudo Tiled & tiled mode
+super + shift + space
+#super + {p,t}
+    bspc node -t "~"{pseudo_tiled,tiled}
+
+# Set the node flags
+super + ctrl + {m,x,y,z}
+	bspc node -g {marked,locked,sticky,private}
+
+# Send the window to another edge of the screen
+super + {_,shift + }{h,j,k,l}
+	bspc node -{f,s} {west,south,north,east}
+
+# Change focus to next window, including floating window
+alt + {_,shift + }Tab
+	bspc node -f {next.local,prev.local}
+
+# Switch workspace
+ctrl + alt + {h,l}
+	bspc desktop -f {prev.local,next.local}
+
+# Switch to last opened workspace
+super + {Tab,grave}
+	bspc {node,desktop} -f last
+
+# Switch bspwm layouts
+super + shift + Tab
+  bsp-layout cycle --layouts tall,rtall,wide,rwide,grid,rgrid
+
+# Set bpswm layout to tiled
+super + shift + grave
+  bsp-layout set tiled
+
+# Send focused window to another workspace
+super + {_,shift + }{1-8}
+	bspc {desktop -f,node -d} '^{1-8}'
+
+# Expanding windows
+super + control + {h,l,k,j}
+	bspc node -z {left -20 0,right 20 0,top 0 -20,bottom 0 20}
+	
+## Shrinking windows
+super + alt + {h,j,k,l}
+	bspc node -z {left 20 0,right -20 0,top 0 20,bottom 0 -20}
+	
+## Move floating windows
+super +  shift + {Left,Down,Up,Right}
+	bspc node -v {-20 0,0 20,0 -20,20 0}
+
+# Hide/Unhide Window
+super + shift + button{2} 
+	winmask		
+
+super + shift + i 
+	winmask		
+
+#Own
+# negative -w arg to account for a border width (default: 100%)
+alt + s
+  tdrop -ma -w -4 -y "$PANEL_HEIGHT" -s dropdown kitty 
+
+# Increase and decrease windows gaps
+super + {_, shift +} g
+    { bspc config -d focused window_gap $(( $(bspc config -d focused window_gap) + 10 )), \
+    [ $(bspc config -d focused window_gap) -ge 10 ] && \
+    bspc config -d focused window_gap $(( $(bspc config -d focused window_gap) - 10 )) }
+
+# Reload Background
+super + shift + Escape 
+  sh ~/.fehbg; notify-send "feh" "Wallpaper changed"
+
+super + F1
+  zathura ~/Desktop/Reporte.pdf
+
+super + F2
+  bspterm -e pulsemixer
+
+super + F3
+  setxkbmap {dvorak; notify-send "Keyboard" "Keyboard layout changed to dvorak", es; notify-send "Keyboard" "Keyboard layout changed to qwerty"}
+
+super + F4
+  passmenu
+
+super + {F5,F6,F7}
+  mpc {prev,next,toggle}
+
+super + F8
+  ~/.local/bin/toggle {light, dark}
+
+Scroll_Lock
+  xset {led, -led}
+
+##---------- EOF ----------##
+

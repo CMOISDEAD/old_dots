@@ -1,0 +1,5 @@
+2022/07/15-18:40:36.412 6c0 Reusing MANIFEST /home/camilo/.config/Vieb/Partitions/main/Local Storage/leveldb/MANIFEST-000001
+2022/07/15-18:40:36.413 6c0 Recovering log #502
+2022/07/15-18:40:36.452 6c0 Level-0 table #505: started
+2022/07/15-18:40:36.634 6c0 Level-0 table #505: 18575 bytes OK
+2022/07/15-18:40:36.733 6c0 Delete type=0 #502

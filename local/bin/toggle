@@ -1,0 +1,17 @@
+#!/bin/sh
+
+if [[ $1 == "dark" ]]; then
+  notify-send "colors changed" "Dark mode"
+  kitty-colorscheme Gruvbox_dark.conf 
+  rm ~/.Xresources.d/colors
+  cp ~/dark ~/.Xresources.d/colors
+  bspbar
+  feh --no-fehbg --bg-fill ~/Pictures/gruvbox/gruvbox-dark.png
+else
+  notify-send "colors changed" "Light mode"
+  kitty-colorscheme Gruvbox_light.conf 
+  rm ~/.Xresources.d/colors
+  cp ~/light ~/.Xresources.d/colors
+  bspbar
+  feh --no-fehbg --bg-fill ~/Pictures/gruvbox/gruvbox-light.png
+fi

@@ -1,0 +1,6 @@
+2022/06/25-18:57:44.616 473b Creating DB /home/camilo/.config/Vieb/Partitions/main/IndexedDB/https_sentence.yourdictionary.com_0.indexeddb.leveldb since it was missing.
+2022/06/25-18:57:44.689 473b Reusing MANIFEST /home/camilo/.config/Vieb/Partitions/main/IndexedDB/https_sentence.yourdictionary.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/06/25-18:57:51.914 473b Level-0 table #5: started
+2022/06/25-18:57:51.939 473b Level-0 table #5: 448 bytes OK
+2022/06/25-18:57:51.963 473b Delete type=0 #3
+2022/06/25-18:57:51.963 473b Manual compaction at level-0 from (begin) .. (end); will stop at (end)

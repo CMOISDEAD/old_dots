@@ -1,0 +1,133 @@
+pin
+help
+pin
+nohlsearch
+q
+mkviebrc full
+colorscheme light
+colorscheme flipped
+colorscheme verticaltabs
+colorscheme light
+colorscheme default
+colorscheme verticaltabs
+set mintabwidth=15
+q
+colorscheme verticaltabs
+colorscheme default
+pin
+pin 1
+set guifullscreennavbar
+set windowtitle=title
+set windowtitle=url
+close
+close!
+:q
+q
+set adblocker=update
+colorscheme verticaltabs
+colorscheme default
+colorscheme flipped
+colorscheme light
+colorscheme default
+extensions list
+q
+restart
+nohlsearch
+q
+restart
+nohlsearch
+notifications
+set firefoxmode=always
+set firefoxmode=never
+set fontsize=12
+set guinavbar=oninput
+set guinavbar=onupdate
+set guitabbar=onupdate
+colorscheme verticaltabs
+set guitabbar=always
+set taboverflow=wrap
+set taboverflow=hidden
+set taboverflow=scroll
+set taboverflow?
+set taboverflow&
+set guitabbar=onupdate
+colorscheme default
+set menusuggest=explore
+set menusuggest=command
+set menusuggest=both
+colorscheme gruvbox
+set fontsize=14
+set downloadmethod=confirm
+set downloadmethod?
+set downloadmethod=ask
+colorscheme verticalplus
+set guitabbar=always
+colorscheme verticalplus
+set guinavbar
+set guinavbar=onupdate
+set guitabbar=onupdate
+colorscheme verticalplus
+notifications
+restart
+reloadconfig
+notifications
+mkviebrc full
+restart
+set guitabbar=always
+set guitabbar=onupdate
+ls
+buffer
+extensions install Stylus
+extensions install
+ls
+extensions install
+extensions list
+extensions
+extensions install
+extensions
+extensions list
+Stylus
+extensions
+restart
+extensions list
+extensions remove apmmpaebfobifelkijhaljbmpcgbjbdo
+ls
+set vimcommand=nvim
+reloadconfig
+nohlsearch
+devtools window
+makedefault
+
+notifications
+nohlsearch
+set externalcommand=feh
+set externalcommand=mpv
+set externalcommand=feh
+nohlsearch
+set externalcommand=mpv
+set externalcommand=feh
+noh
+nohlsearch
+set externalcommand=viewnior
+set externalcommand=feh
+nohlsearch
+history
+nohlsearch
+set externalcommand=feh
+nohlsearch
+pin
+nohlsearch
+pin
+version
+darkreader
+sponsorblock
+extensions list
+darkreadercontrast
+set darkreader
+set darkreader!
+nohlsearch
+restart
+set startuppages?
+help specialpages
+downloads
+close

@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+killall tint2
+
+tint2 /home/camilo/.config/tint2/launchy/launchy.tint2rc &
