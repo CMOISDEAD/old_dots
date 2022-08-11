@@ -1,4 +1,6 @@
+![banner](./preview/banner.png)
+---
 ![Preview](./preview/preview.png)
 ![Preview_alt](./preview/preview_alt.png)
 
-<p align="center"><i>2022</i></p>
+<p align="center"><strong>Personal Dotfiles 2022</strong></p>
