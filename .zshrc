@@ -10,7 +10,8 @@ fi
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
-export PATH=/home/camilo/.local/bin:/home/camilo/.bun/bin:$PATH 
+export GOPATH="$HOME/go"
+export PATH=/home/camilo/.local/bin:/home/camilo/.bun/bin:$GOPATH/bin:/home/camilo/Documents/git/flutter/bin:$PATH
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -78,10 +79,10 @@ ZSH_THEME="doom/doom"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=( git zsh-autosuggestions zsh-vi-mode zsh-completions)
+plugins=( git zsh-autocomplete zsh-vi-mode)
 
 # Autosuggestions
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="underline"
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#bdae93,bold,underline"
 
 # Zsh vim mode
 ZVM_VI_INSERT_ESCAPE_BINDKEY=jk
@@ -129,3 +130,5 @@ alias acs="alacritty-colorscheme -C ~/.config/alacritty/colors -V apply"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+eval "$(zoxide init zsh)"
