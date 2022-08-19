@@ -15,8 +15,11 @@ super + shift + Return
 
 # Rofi App Launcher
 super + d
-	~/.config/bspwm/rofi/bin/launcher
-	# ~/.config/bspwm/rofi/bin/command_launcher
+  ~/.config/rofi/launchers/type-1/launcher.sh
+	# ~/.config/bspwm/rofi/bin/launcher
+
+super + x
+  ~/.config/rofi/powermenu/type-1/powermenu.sh
 
 super + shift + d
   sh ~/.config/rofi/clipboards/launcher.sh
@@ -26,8 +29,8 @@ super + n
 	nmd
 
 # Rofi Menus/Applets
-super + {c,m,x,r,s,i}
-	sh ~/.config/bspwm/rofi/bin/{windows,mpd,powermenu,asroot,screenshot,network}
+super + {c,m,r,s,i}
+	sh ~/.config/bspwm/rofi/bin/{windows,mpd,asroot,screenshot,network}
 
 ##---------- Applications ----------##
 
