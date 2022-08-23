@@ -1,3 +1,8 @@
-2022/07/15-18:40:35.612 6c0 Reusing MANIFEST /home/camilo/.config/Vieb/Session Storage/MANIFEST-000001
-2022/07/15-18:40:35.639 6c0 Recovering log #51
-2022/07/15-18:40:35.682 6c0 Reusing old log /home/camilo/.config/Vieb/Session Storage/000051.log 
+2022/08/22-20:30:10.303 7028 Reusing MANIFEST /home/camilo/.config/Vieb/Session Storage/MANIFEST-000001
+2022/08/22-20:30:10.304 7028 Recovering log #68
+2022/08/22-20:30:10.304 7028 Level-0 table #71: started
+2022/08/22-20:30:10.385 7028 Level-0 table #71: 27190 bytes OK
+2022/08/22-20:30:10.385 7028 Recovering log #71
+2022/08/22-20:30:10.385 7028 Reusing old log /home/camilo/.config/Vieb/Session Storage/000071.log 
+2022/08/22-20:30:10.457 7028 Delete type=2 #72
+2022/08/22-20:30:10.457 7028 Delete type=0 #68

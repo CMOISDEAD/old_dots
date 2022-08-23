@@ -1,5 +1,23 @@
-2022/07/15-18:40:36.412 6c0 Reusing MANIFEST /home/camilo/.config/Vieb/Partitions/main/Local Storage/leveldb/MANIFEST-000001
-2022/07/15-18:40:36.413 6c0 Recovering log #502
-2022/07/15-18:40:36.452 6c0 Level-0 table #505: started
-2022/07/15-18:40:36.634 6c0 Level-0 table #505: 18575 bytes OK
-2022/07/15-18:40:36.733 6c0 Delete type=0 #502
+2022/08/22-20:30:10.566 7027 Reusing MANIFEST /home/camilo/.config/Vieb/Partitions/main/Local Storage/leveldb/MANIFEST-000001
+2022/08/22-20:30:10.567 7027 Recovering log #741
+2022/08/22-20:30:10.567 7027 Reusing old log /home/camilo/.config/Vieb/Partitions/main/Local Storage/leveldb/000741.log 
+2022/08/22-21:01:14.667 7710 Level-0 table #745: started
+2022/08/22-21:01:14.848 7710 Level-0 table #745: 16996 bytes OK
+2022/08/22-21:01:14.926 7710 Delete type=0 #741
+2022/08/22-21:17:31.784 8317 Level-0 table #747: started
+2022/08/22-21:17:31.880 8317 Level-0 table #747: 126891 bytes OK
+2022/08/22-21:17:31.951 8317 Delete type=0 #744
+2022/08/22-21:17:31.952 7a6d Compacting 4@0 + 2@1 files
+2022/08/22-21:17:32.191 7a6d Generated table #748@0: 2001 keys, 2389876 bytes
+2022/08/22-21:17:32.303 7a6d Generated table #749@0: 3167 keys, 308941 bytes
+2022/08/22-21:17:32.303 7a6d Compacted 4@0 + 2@1 files => 2698817 bytes
+2022/08/22-21:17:32.384 7a6d compacted to: files[ 0 2 1 0 0 0 0 ]
+2022/08/22-21:17:32.385 7a6d Delete type=2 #745
+2022/08/22-21:17:32.385 7a6d Delete type=2 #739
+2022/08/22-21:17:32.385 7a6d Delete type=2 #742
+2022/08/22-21:17:32.385 7a6d Delete type=2 #735
+2022/08/22-21:17:32.385 7a6d Delete type=2 #736
+2022/08/22-21:17:32.385 7a6d Delete type=2 #747
+2022/08/22-21:19:45.122 8367 Level-0 table #751: started
+2022/08/22-21:19:45.251 8367 Level-0 table #751: 391462 bytes OK
+2022/08/22-21:19:45.329 8367 Delete type=0 #746

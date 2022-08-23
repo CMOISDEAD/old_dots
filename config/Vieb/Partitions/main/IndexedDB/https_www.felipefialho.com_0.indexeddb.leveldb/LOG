@@ -1,0 +1,6 @@
+2022/08/21-17:03:33.190 6ff3 Creating DB /home/camilo/.config/Vieb/Partitions/main/IndexedDB/https_www.felipefialho.com_0.indexeddb.leveldb since it was missing.
+2022/08/21-17:03:33.400 6ff3 Reusing MANIFEST /home/camilo/.config/Vieb/Partitions/main/IndexedDB/https_www.felipefialho.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/08/21-17:04:33.989 6ff3 Level-0 table #5: started
+2022/08/21-17:04:34.056 6ff3 Level-0 table #5: 3378 bytes OK
+2022/08/21-17:04:34.130 6ff3 Delete type=0 #3
+2022/08/21-17:04:34.131 6ff3 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

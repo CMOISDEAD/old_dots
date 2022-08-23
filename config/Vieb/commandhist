@@ -131,3 +131,21 @@ set startuppages?
 help specialpages
 downloads
 close
+downloads
+set darkreader
+set darkreader=false
+colorscheme compact
+colorscheme default
+colorscheme flipped
+colorscheme numberedtabs
+colorscheme verticaltabs
+colorscheme gruvbox
+set firefoxmode=google
+help startuppages
+help quickmarks
+version
+nohlsearch
+history
+nohlsearch
+set darkreader
+restart
