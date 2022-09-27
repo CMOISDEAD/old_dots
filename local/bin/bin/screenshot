@@ -1,0 +1,6 @@
+#!/bin/sh
+
+screenshot_dir=$HOME/Pictures/Screenshots
+
+scrot "$screenshot_dir/%Y-%m-%d-%T-screenshot.png"
+notify-send "Screnshot save" "Screnshot take sucessfully"

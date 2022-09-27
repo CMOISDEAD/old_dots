@@ -1,0 +1,6 @@
+#!/bin/zsh
+
+ARTIFACTID=$1
+GROUPID=$2
+
+mvn package && java -cp target/$ARTIFACTID-1.0-SNAPSHOT.jar $GROUPID.App

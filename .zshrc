@@ -1,3 +1,11 @@
+# Print magepy todos
+alias gandalf="python ~/Documents/programacion/python/gandalf/main.py"
+# Print todos with gandalf
+#gandalf table | lolcat
+
+# Print dennis face
+~/.local/bin/unix
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -12,12 +20,13 @@ fi
 export ZSH="$HOME/.oh-my-zsh"
 export GOPATH="$HOME/go"
 export PATH=/home/camilo/.local/bin:/home/camilo/.bun/bin:$GOPATH/bin:/home/camilo/Documents/git/flutter/bin:$PATH
+export TIMEFMT=$'\nreal\t%*E\nuser\t%*U\nsys\t%*S'
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="doom/doom"
+ZSH_THEME="spaceship"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load

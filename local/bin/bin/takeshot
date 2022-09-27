@@ -1,0 +1,13 @@
+#!/bin/sh
+
+DIR=~/Pictures/Screenshots;
+
+if [[ $1 == "--in5" ]]; then
+  scrot "$DIR/%Y-%m-%d-%T-screenshot.png" -c -d 5;
+elif [[ $1 == "--area" ]]; then
+  scrot "$DIR/%Y-%m-%d-%T-screenshot.png" -s;
+else 
+  scrot "$DIR/%Y-%m-%d-%T-screenshot.png";
+fi
+
+notify-send "Screenshot" "Screenshot take sucessfully!";

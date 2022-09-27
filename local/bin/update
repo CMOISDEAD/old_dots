@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Actualizar paquetes
+# Instalar software
+# Iniciar el servicio de nginx
+# Cambiar el index de nginx
+
+if [[ $1 == "update" ]]; then
+	sudo pacman -Syu
+elif [[ $1 == "install" ]]; then
+	sudo pacman -S nginx
+elif [[ $1 == "service" ]]; then
+	sudo systemctl start nginx
+elif [[ $1 == "index" ]]; then
+	sed -i -e 's/root\/usr/hola/g' ./test.txt
+fi
