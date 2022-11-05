@@ -1,6 +1,0 @@
-2022/08/22-20:58:45.687 722c Creating DB /home/camilo/.config/Vieb/Partitions/main/IndexedDB/https_www.engadget.com_0.indexeddb.leveldb since it was missing.
-2022/08/22-20:58:45.912 722c Reusing MANIFEST /home/camilo/.config/Vieb/Partitions/main/IndexedDB/https_www.engadget.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/08/22-20:58:54.012 730a Level-0 table #5: started
-2022/08/22-20:58:54.113 730a Level-0 table #5: 1121 bytes OK
-2022/08/22-20:58:54.190 730a Delete type=0 #3
-2022/08/22-20:58:54.190 730a Manual compaction at level-0 from (begin) .. (end); will stop at (end)

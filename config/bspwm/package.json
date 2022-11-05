@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "-": "^0.0.1",
+    "@fsouza/prettierd": "^0.21.1"
+  }
+}

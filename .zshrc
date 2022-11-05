@@ -1,7 +1,7 @@
 # Print magepy todos
-alias gandalf="python ~/Documents/programacion/python/gandalf/main.py"
+# alias gandalf="python ~/Documents/programacion/python/gandalf/main.py"
 # Print todos with gandalf
-#gandalf table | lolcat
+# gandalf table | lolcat
 
 # Print dennis face
 ~/.local/bin/unix
@@ -21,12 +21,14 @@ export ZSH="$HOME/.oh-my-zsh"
 export GOPATH="$HOME/go"
 export PATH=/home/camilo/.local/bin:/home/camilo/.bun/bin:$GOPATH/bin:/home/camilo/Documents/git/flutter/bin:$PATH
 export TIMEFMT=$'\nreal\t%*E\nuser\t%*U\nsys\t%*S'
+export NNN_PLUG='f:finder;o:fzopen;p:mocq;d:diffs;t:nmount;v:imgview;n:nuke;s:preview-tabbed'
+export NNN_FIFO=/tmp/nnn.fifo
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="spaceship"
+ZSH_THEME=""
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -88,7 +90,7 @@ ZSH_THEME="spaceship"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=( git zsh-autocomplete zsh-vi-mode)
+plugins=(git zsh-autocomplete zsh-vi-mode web-search)
 
 # Autosuggestions
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#bdae93,bold,underline"
@@ -124,15 +126,12 @@ source $ZSH/oh-my-zsh.sh
 export EDITOR=nvim
 
 # Example aliases
-
-alias bun="sde -chip-check-disable -- bun"
-
 alias zshconfig="nvim ~/.zshrc"
 alias ohmyzsh="nvim ~/.oh-my-zsh"
 alias l="exa --icons -abghHliS"
 alias ls="exa --icons"
 alias ll="exa --icons -al"
-alias lf="~/.local/bin/lfub"
+alias unmute="amixer set Master unmute"
 
 # alacritty
 alias acs="alacritty-colorscheme -C ~/.config/alacritty/colors -V apply"
@@ -141,3 +140,5 @@ alias acs="alacritty-colorscheme -C ~/.config/alacritty/colors -V apply"
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 eval "$(zoxide init zsh)"
+eval "$(starship init zsh)"
+export PATH=$PATH:/home/camilo/.spicetify

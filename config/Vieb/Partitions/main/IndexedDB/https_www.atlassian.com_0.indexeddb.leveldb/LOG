@@ -1,6 +1,0 @@
-2022/07/10-18:21:32.474 15ed Creating DB /home/camilo/.config/Vieb/Partitions/main/IndexedDB/https_www.atlassian.com_0.indexeddb.leveldb since it was missing.
-2022/07/10-18:21:32.556 15ed Reusing MANIFEST /home/camilo/.config/Vieb/Partitions/main/IndexedDB/https_www.atlassian.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/07/10-18:22:10.597 15de Level-0 table #5: started
-2022/07/10-18:22:10.630 15de Level-0 table #5: 17910 bytes OK
-2022/07/10-18:22:10.666 15de Delete type=0 #3
-2022/07/10-18:22:10.666 15de Manual compaction at level-0 from (begin) .. (end); will stop at (end)

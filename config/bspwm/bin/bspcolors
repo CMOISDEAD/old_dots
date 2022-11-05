@@ -34,11 +34,11 @@ bspbar () {
 	[color]
 
 	foreground = ${FOREGROUND}
-	foreground-alt = #93a1a1
+	foreground-alt = #ebdbb2
 	background = ${BACKGROUND}
-	background-alt = #073642
-	prefbg = #073642
-	preffg = #93a1a1
+	background-alt = #282828
+	prefbg = #282828
+	preffg = #ebdbb2
 	primary = ${FOREGROUND}
 	black = ${BLACK}
 	red = ${RED}

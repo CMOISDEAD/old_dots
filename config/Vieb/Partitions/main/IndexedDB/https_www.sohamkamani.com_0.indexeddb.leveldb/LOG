@@ -1,6 +1,0 @@
-2022/06/21-13:55:23.598 1c2a Creating DB /home/camilo/.config/Vieb/Partitions/main/IndexedDB/https_www.sohamkamani.com_0.indexeddb.leveldb since it was missing.
-2022/06/21-13:55:23.739 1c2a Reusing MANIFEST /home/camilo/.config/Vieb/Partitions/main/IndexedDB/https_www.sohamkamani.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/06/21-13:57:47.480 1ee0 Level-0 table #5: started
-2022/06/21-13:57:47.530 1ee0 Level-0 table #5: 1299 bytes OK
-2022/06/21-13:57:47.565 1ee0 Delete type=0 #3
-2022/06/21-13:57:47.565 1ee0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

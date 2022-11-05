@@ -1,0 +1,61 @@
+{
+  "name": "user snippets",
+  "engines": {
+    "vscode": "^1.11.0"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": [
+          "javascript",
+          "typescript"
+        ],
+        "path": "./javascript/javascript.json"
+      },
+      {
+        "language": [
+          "typescript",
+          "typescriptreact"
+        ],
+        "path": "./javascript/typescript.json"
+      },
+      {
+        "language": [
+          "javascriptreact",
+          "typescriptreact"
+        ],
+        "path": "./javascript/react.json"
+      },
+      {
+        "language": [
+          "javascriptreact",
+          "typescriptreact"
+        ],
+        "path": "./javascript/react-es7.json"
+      },
+      {
+        "language": "vue",
+        "path": "./javascript/vue.json"
+      },
+      {
+        "language": "java",
+        "path": "./java/java.json"
+      },
+      {
+        "language": [
+          "markdown",
+          "vimwiki"
+        ],
+        "path": "./markdown.json"
+      },
+      {
+        "language": "go",
+        "path": "./go.json"
+      },
+      {
+        "language": "elixir",
+        "path": "./elixir.json"
+      }
+    ]
+  }
+}

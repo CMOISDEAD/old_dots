@@ -6,28 +6,35 @@
 
 config_version: 2
 settings:
+  bindings.commands:
+    global:
+      normal:
+        <Ctrl+/>: hint links spawn --detach mpv {hint-url}
+        M: hint links spawn mpv {hint-url}
   colors.webpage.darkmode.enabled:
     global: false
-  content.media.audio_capture:
-    https://meet.google.com: false
-    https://uniquindio.webex.com: true
-  content.media.audio_video_capture:
-    https://meet.google.com: true
-    https://uniquindio.webex.com: true
-  content.media.video_capture:
-    https://meet.google.com: false
-    https://uniquindio.webex.com: false
+  content.headers.accept_language:
+    global: en-US,en;q=0.5
+  content.headers.custom:
+    global:
+      accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
   content.notifications.enabled:
-    https://mail.protonmail.com: true
-    https://meet.google.com: false
-    https://ytmp3.cc: false
+    https://arabic.rt.com: false
+    https://fc-lc.com: false
+    https://ibb.co: false
+    https://iq.opengenus.org: false
+    https://www.reddit.com: true
+    https://www.youtube.com: true
+    https://xat.com: false
   content.register_protocol_handler:
     https://mail.google.com?extsrc=mailto&url=%25s: true
-  content.user_stylesheets:
-    global: null
-  statusbar.show:
-    global: never
+    https://mail.tutanota.com#url=%25s: false
+  spellcheck.languages:
+    global:
+    - en-US
+  tabs.position:
+    global: top
   tabs.show:
     global: always
   tabs.width:
-    global: 15%
+    global: 100%

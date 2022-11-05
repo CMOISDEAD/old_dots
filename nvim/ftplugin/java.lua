@@ -76,9 +76,35 @@ local config = {
   --
   -- If you don't plan on using the debugger or other eclipse.jdt.ls plugins you can remove this
   init_options = {
-    bundles = {},
+    bundles = {
+      vim.fn.glob(
+        "/home/camilo/Documents/git/java-debug/com.microsoft.java.debug.plugin/target/com.microsoft.java.debug.plugin-*.jar",
+        1
+      ),
+    },
   },
 }
+
+config["on_attach"] = function(client, bufnr)
+  -- With `hotcodereplace = 'auto' the debug adapter will try to apply code changes
+  -- you make during a debug session immediately.
+  -- Remove the option if you do not want that.
+  -- You can use the `JdtHotcodeReplace` command to trigger it manually
+  require("jdtls").setup_dap { hotcodereplace = "auto" }
+end
+
+local bundles = {
+  vim.fn.glob(
+    "/home/camilo/Documents/git/java-debug/com.microsoft.java.debug.plugin/target/com.microsoft.java.debug.plugin-*.jar",
+    1
+  ),
+}
+
+vim.list_extend(bundles, vim.split(vim.fn.glob("/home/camilo/Documents/git/vscode-java-test/server/*.jar", 1), "\n"))
+config["init_options"] = {
+  bundles = bundles,
+}
+
 -- This starts a new client & server,
 -- or attaches to an existing client & server depending on the `root_dir`.
 require("jdtls").start_or_attach(config)

@@ -34,10 +34,10 @@ workspaces() {
 workspaces
 
 bspc config border_width 1
-bspc config window_gap 0
+bspc config window_gap 2
 bspc config split_ratio 0.50
 
-bspc config focused_border_color "$FOREGROUND" 
+bspc config focused_border_color "$YELLOW"
 bspc config normal_border_color "$BACKGROUND"
 bspc config active_border_color "$MAGENTA"
 bspc config presel_feedback_color "$GREEN"
@@ -175,7 +175,7 @@ exec mpd &
 # Start bspwm scripts
 bspcolors
 # bspbar
-~/.config/polybar/launch.sh --ronin
+~/.config/polybar/launch.sh --hack
 # xfce4-panel &
 # bspcomp
 

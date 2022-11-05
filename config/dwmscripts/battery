@@ -1,0 +1,10 @@
+#!/bin/sh
+cap="$(cat /sys/class/power_supply/BAT1/capacity)"
+status="$(cat /sys/class/power_supply/BAT1/status)"
+estimated="$(acpi -b | grep -E 'remaining|until' | awk '{print $5}')"
+if [ "$estimated" == "" ]; then
+	echo "$cap% Full "
+else
+	# echo "$cap% : $estimated left "
+	echo "$cap% $status"
+fi
